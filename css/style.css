@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(30, 57, 111);
+}
+.container{
+    width: 400px;
+    height: 300px;
+    margin: 10rem auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(244, 219, 91);
+    box-shadow: 10px 10px 1px rgb(19, 19, 19);
+}
+.container h1 {
+    padding: 20px 0px 0px 30px;
+}
+#lista {
+    padding: 10px 0px 0px 70px;
+    font-style: oblique;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: calc(100% / 2);
+    height: 80%;
+}
+#lista li {
+    padding: 2px;
+}

@@ -15,7 +15,9 @@ let myArray =  [
     'pesche',
     'meloni',
     'fragole',
-    'ananas'
+    'ananas',
+    'ciliegie'
+    //aggiungere elementi alla lista
 ];
 
 console.log(myArray);
